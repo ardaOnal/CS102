@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+/**
+ * A simple Menu class.
+ * @author Arda Onal
+ * @version 15.02.2020
+ */
+public class Menu
+{
+   public static void main( String[] args)
+   {
+      // constants
+      
+      // variables
+      IntBag bag;
+      int input;
+      
+      // program code
+      input = 0;
+      System.out.println( "To create a bag of integers, please enter a value:");
+      input = scan.nextInt();
+      bag = new IntBag( input);
+      
+      System.out.println( " Enter positive values, negative to stop.");
+      while ( input < 0)
+      {
+         if ( scan.hasnextInt())
+         {
+            input = scan.nextInt();
+            IntBag.add( input);
+         }
+         else
+            System.out.println( "enter an INTEGER idiot.");
+      }
+      
+      
+      
+      
+      
+      
+   }
+}
