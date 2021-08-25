@@ -1,0 +1,37 @@
+package hangmangame.extras;
+
+import cs102.hangman.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class NewGameButtonControl extends JButton implements IHangmanView 
+{
+   
+   // properties
+   
+   // constructors
+   public NewGameButtonControl( HangmanModel hm)
+   {
+      setText( "New Game");
+      
+      setEnabled( false);
+     
+      addActionListener( new ActionListener() 
+                           { 
+         public void actionPerformed( ActionEvent E)
+         {
+            setEnabled( false);
+            hm.initNewGame();
+         }
+      });
+   }
+   
+   // methods
+   @Override
+   public void updateView( Hangman hm)
+   {
+      if ( hm.isGameOver())
+         setEnabled( true);
+   }
+}
