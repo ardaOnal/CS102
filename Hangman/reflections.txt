@@ -1,0 +1,24 @@
+CS102-03
+Arda Önal 21903350
+16.02.2020
+Estimated time: 1 hour
+Time Spent: +5 hours
+working but in Eclipse IDE ( DrJava does not compile it and i couldnt fix it)
+
+Integration & Testing of Hangman code: There were lots of compiler errors at the first place, 
+most of the people incapable of completing their assignments correctly. 
+There were some minor not initializing and spelling errors which is not a big deal.
+Their algorithms had lots of logic errors which made me rewrite most of them. 
+For example: 
+-getKnownSoFar method didnt replace '*' chars with known letters.
+-isGameOver method didn't work when we found out the entire word
+-chooseSecretWord didn't do what it was supposed to do. It asked user to enter words and then randomly select a word from them.
+-If we wrote a letter second time, it would still add it to usedLetters so i had to fix it. example: abcaaa
+-getKnownSoFar method had a bug and wasn't checking the last index of the word, thus the last letter wasn't getting replaced at all. 
+Now that is fixed but the game doesn't end when you guess the word correctly.
+-We fixed the isGameOver method and changed StringBuffers to Strings so 
+that when we use .equals on them to compare and now the game ends when you guess the word correctly.
+
+I know that we are all beginner programmers and 
+this was our first time doing this which makes it okay to do some mistakes
+I am sure that we would be more successful with more practice in the future.
