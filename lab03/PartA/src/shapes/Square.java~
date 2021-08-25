@@ -1,0 +1,24 @@
+package shapes;
+
+public class Square extends Rectangle
+{
+   // properties
+   int side;
+   
+   // constructors
+   public Square( int side)
+   {
+      super( side, side);
+      this.side = side;
+   }
+   
+   // methods
+   
+   // getArea is inherited from Rectangle.
+   
+   public String toString()
+   {
+      return "Square with area " + getArea() + " and side with " + side + ".";
+   }
+   
+}

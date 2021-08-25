@@ -1,0 +1,15 @@
+public class IntBagIterator implements Iterator
+{
+   // properties
+   private IntBag aBag;
+   private int index;
+   
+   // constructors
+   public IntBagIterator( IntBag bag)
+   {
+      aBag = bag;
+      index = 0;
+   }
+   
+   // methods
+}

@@ -1,0 +1,26 @@
+package shapes;
+
+public class Rectangle extends Shape
+{
+   // properties
+   int width, length;
+   
+   // constructors
+   public Rectangle( int width, int length)
+   {
+      this.width = width;
+      this.length = length;
+   }
+   
+   // methods
+   public double getArea()
+   {
+      return width * length;
+   }
+   
+   public String toString()
+   {
+      return "Rectangle with area " + getArea() + " and sides with " + width + ", " + length + ".";
+   }
+   
+}
