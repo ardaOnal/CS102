@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="classes/" main="PotLuck" root="src/" work="src/">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="MyFrame.java" package="" timestamp="01-Apr-2020 09:38:20">
+        <select from="5664" to="5664"/>
+        <scroll column="3269" row="0"/>
+      </file>
+      <file name="PotLuck.java" package="" timestamp="29-Mar-2020 16:11:36">
+        <select from="5664" to="5664"/>
+        <scroll column="3269" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

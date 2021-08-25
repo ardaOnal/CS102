@@ -1,0 +1,36 @@
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ * A simple Pot Luck game
+ * @author Arda Onal
+ * @version 29.03.2020
+ */
+public class PotLuck
+{
+   public static void main( String[] args)
+   {
+      // constants
+      
+      // variables
+      JFrame frame;
+      JPanel boxes;
+      JPanel statusBar;
+      JButton button;
+      int random;
+      int attemptNumber;
+      
+      
+      // program code
+      random = (int) (Math.random() * 25) + 1;
+      attemptNumber = 0;
+      
+      // Status Bar
+      statusBar = new JPanel();
+      statusBar.add( new JLabel( "STATUSBAR" + attemptNumber));
+      
+      
+      
+      
+   }
+}
